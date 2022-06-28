@@ -38,6 +38,6 @@
   "examples": "examples/*/*/*.ino",
   "headers": "ESP_MultiResetDetector.h",
   "build": {
-    "flags": "-D ARDUINO=100"
+    "extraScript": "generateArduinoMacro.py"
   }
 }
