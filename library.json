@@ -27,7 +27,7 @@
     {
       "owner": "lorol",
       "name": "LittleFS_esp32",
-      "version": "^1.0.6",
+      "version": "https://github.com/Aquael/LITTLEFS",
       "platforms": ["espressif32"]
     }
   ],
