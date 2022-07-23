@@ -159,7 +159,7 @@
     #endif
 
     #ifndef MRD_TIMEOUT
-        #define MRD_TIMEOUT 10
+        #define MRD_TIMEOUT 60
     #endif
 
     #ifndef MRD_ADDRESS
