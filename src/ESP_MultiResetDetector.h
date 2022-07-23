@@ -50,6 +50,10 @@
 
     #define ESP_MULTIRESETDETECTOR_VERSION ESP_MULTI_RESET_DETECTOR_VERSION
 
+    #define ESP_MRD_USE_LITTLEFS           false
+    #define ESP_MRD_USE_SPIFFS             true
+    #define ESP_MRD_USE_EEPROM             false
+
 //#define ESP_MRD_USE_EEPROM      false
 //#define ESP_MRD_USE_LITTLEFS    false
 //#define ESP_MRD_USE_SPIFFS      false
@@ -151,7 +155,7 @@
 // Default values if not specified in sketch
 
     #ifndef MRD_TIMES
-        #define MRD_TIMES 3
+        #define MRD_TIMES 5
     #endif
 
     #ifndef MRD_TIMEOUT
